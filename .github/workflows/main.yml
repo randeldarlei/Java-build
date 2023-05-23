@@ -30,7 +30,7 @@ jobs:
 
 # Configura e autentica as permissões necessárias para o GitHub Packages.
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
 
 # Excluí o arquivo settings.xml.
     - name: Delete local settings.xml file

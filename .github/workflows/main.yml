@@ -17,7 +17,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v2
       with:
-        java-version: '11' # Versão utilizada no projeto.
+        java-version: '16' # Versão utilizada no projeto.
 
 # Realiza um build e execução limpa do Maven. 
     - name: Build and package with Maven

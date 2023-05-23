@@ -10,33 +10,3 @@
       <password>${env.GITHUB_TOKEN}</password>
     </server>
   </servers>
-
-  <profiles>
-    <profile>
-      <id>github</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <repositories>
-        <repository>
-          <id>github</id>
-          <name>helloworld</name>
-          <url>https://maven.pkg.github.com/randeldarlei/maven-packages</url>
-          <releases>
-            <enabled>true</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </repository>
-      </repositories>
-    </profile>
-  </profiles>
-    <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>helloworld</name>
-     <url>https://maven.pkg.github.com/randeldarlei/maven-packages</url>
-   </repository>
-</distributionManagement>
-</settings>

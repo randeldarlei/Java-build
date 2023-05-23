@@ -7,8 +7,8 @@
     <groupId>com.example</groupId>
     <artifactId>hello-world</artifactId>
     <version>1.0.0</version>
-
-       <repository>
+    <distributionManagement>
+   <repository>
      <id>github</id>
      <name>helloworld</name>
      <url>https://maven.pkg.github.com/randeldarlei/maven-packages</url>

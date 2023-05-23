@@ -2,6 +2,6 @@
     <repository>
         <id>github</id>
         <name>GitHub Packages</name>
-        <url>https://github.com/randeldarlei/maven-packages</url>
+        <url>https://maven.pkg.github.com/randeldarlei/maven-packages</url>
     </repository>
 </distributionManagement>
